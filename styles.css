@@ -45,8 +45,12 @@ body{
     width: 80%; /* Controla a largura de cada ícone */
 }
 
-p {
+#resume {
     font-size: 20px;
+}
+
+#job a{
+    font-size: 30px;
 }
 
 #profilepic{
