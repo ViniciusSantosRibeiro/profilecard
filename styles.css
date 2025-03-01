@@ -33,10 +33,6 @@ body{
     border-radius: 40px;
 }
 
-p{
-    margin-bottom: 10px;
-}
-
 .contacts {
     margin-bottom: 20px;
     display: flex; /* Usando Flexbox para alinhar os ícones */
