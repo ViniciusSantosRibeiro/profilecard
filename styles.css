@@ -25,7 +25,7 @@ body{
     padding: 20px 10px;
     margin: 0 auto; /* Centraliza automaticamente na horizontal */
     text-align: center;
-    width: 500px;
+    width: 400px;
     height: auto;
     border: none;
     background-color: rgb(255, 255, 255);
@@ -33,7 +33,12 @@ body{
     border-radius: 40px;
 }
 
+p{
+    margin-bottom: 50px;
+}
+
 .contacts {
+    margin-bottom: 20px;
     display: flex; /* Usando Flexbox para alinhar os ícones */
     justify-content: center; /* Espaço igual entre os ícones */
     gap: 50px; /* Define o espaço de 20px entre os itens */
@@ -48,6 +53,10 @@ body{
     width: 35%;
 }
 
+#QRCode{
+    width: 50%;
+}
+
 @media (max-width: 650px) {
     .profilecard{
         width: 80%;
@@ -60,6 +69,10 @@ body{
 
     .contacts{
         gap: 20px;
+    }
+
+    .contacts img{
+        width: 70%;
     }
 
     #profilepic{
