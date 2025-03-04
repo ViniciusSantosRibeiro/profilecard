@@ -35,10 +35,10 @@ body{
 
 .contacts {
     margin-bottom: 20px;
-    display: flex; /* Usando Flexbox para alinhar os ícones */
-    justify-content: center; /* Espaço igual entre os ícones */
-    gap: 50px; /* Define o espaço de 20px entre os itens */
-    flex-wrap: wrap; /* Permite que os ícones se quebrem para a linha seguinte, se necessário */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .contacts img {
