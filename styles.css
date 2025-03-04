@@ -50,6 +50,7 @@ body{
 }
 
 #job{
+    color: black;
     font-size: 100%;
 }
 
@@ -61,8 +62,8 @@ body{
     width: 50%;
 }
 
-#id:hover{
-    color: #211C84;
+#job:hover{
+    color: red;
 }
 
 @media (max-width: 650px) {
